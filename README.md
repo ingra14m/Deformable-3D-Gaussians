@@ -1,6 +1,6 @@
 # Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction
 
-## [Project page](https://ingra14m.github.io/Deformable-3D-Gaussians/) | [Paper](https://ingra14m.github.io/Deformable-3D-Gaussians/paper.pdf)
+## [Project page](https://ingra14m.github.io/Deformable-3D-Gaussians/) | [Paper](https://ingra14m.github.io/Deformable-3D-Gaussians/paper.pdf) | [Arxiv submit](https://arxiv.org/submit/5128734/view)
 
 ![Teaser image](assets/teaser.png)
 
