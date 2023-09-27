@@ -26,6 +26,12 @@ In our paper, we use synthetic dataset from [D-NeRF](https://www.albertpumarola.
 
 ### D-NeRF Dataset
 
+**Quantitative Results**
+
+<img src="assets/results/D-NeRF/Quantitative.png" alt="Image1" style="zoom:50%;" />
+
+**Qualitative Results**
+
  <img src="assets/results/D-NeRF/bouncing.gif" alt="Image1" style="zoom:25%;" />  <img src="assets/results/D-NeRF/hell.gif" alt="Image1" style="zoom:25%;" />  <img src="assets/results/D-NeRF/hook.gif" alt="Image3" style="zoom:25%;" />  <img src="assets/results/D-NeRF/jump.gif" alt="Image4" style="zoom:25%;" /> 
 
  <img src="assets/results/D-NeRF/lego.gif" alt="Image5" style="zoom:25%;" />  <img src="assets/results/D-NeRF/mutant.gif" alt="Image6" style="zoom:25%;" />  <img src="assets/results/D-NeRF/stand.gif" alt="Image7" style="zoom:25%;" />  <img src="assets/results/D-NeRF/trex.gif" alt="Image8" style="zoom:25%;" /> 
