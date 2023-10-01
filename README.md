@@ -1,6 +1,6 @@
 # Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction
 
-## [Project page](https://ingra14m.github.io/Deformable-3D-Gaussians/) | [Paper](https://arxiv.org/abs/2309.13101)
+## [Project page](https://ingra14m.github.io/Deformable-3D-Gaussians.github.io/) | [Paper](https://arxiv.org/abs/2309.13101)
 
 ![Teaser image](assets/teaser.png)
 
@@ -38,7 +38,10 @@ In our paper, we use synthetic dataset from [D-NeRF](https://www.albertpumarola.
 
 ### HyperNeRF Dataset
 
-A demo for the HyperNeRF dataset will be released shortly. I would be immensely grateful if someone could **provide the code displaying the HyperNeRF dataset** as showcased on the project pages of HyperNeRF or TiNeuVox.
+The results of HyperNeRF dataset can be viewed on the [project page](https://ingra14m.github.io/Deformable-3D-Gaussians.github.io/).
+
+
+
 
 
 
