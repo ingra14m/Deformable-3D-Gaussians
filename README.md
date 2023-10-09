@@ -1,6 +1,6 @@
 # Deformable 3D Gaussians for High-Fidelity Monocular Dynamic Scene Reconstruction
 
-## [Project page](https://ingra14m.github.io/Deformable-3D-Gaussians.github.io/) | [Paper](https://arxiv.org/abs/2309.13101)
+## [Project page](https://ingra14m.github.io/Deformable-Gaussians/) | [Paper](https://arxiv.org/abs/2309.13101)
 
 ![Teaser image](assets/teaser.png)
 
@@ -19,6 +19,20 @@ In our paper, we use synthetic dataset from [D-NeRF](https://www.albertpumarola.
 ## Pipeline
 
 ![Teaser image](assets/pipeline.png)
+
+
+
+## Run
+
+### Environment
+
+```shell
+conda env create --file environment.yml
+conda activate deformable_gaussian_env
+pip install imageio==2.27.0
+pip install opencv-python
+pip install imageio-ffmpeg
+```
 
 
 
