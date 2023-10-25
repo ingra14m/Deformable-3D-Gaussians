@@ -8,6 +8,10 @@ This repository contains the official implementation associated with the paper "
 
 
 
+## News
+
+- 23/10/25, update **real-time viewer** in project page. Many, many thanks to @[yihua7](https://github.com/yihua7) for implementing the real-time viewer adapted for Deformable-GS. Also, thanks to @[ashawkey](https://github.com/ashawkey) for releasing the original GUI. Full code will be **released on 11.17**.
+
 ## Dataset
 
 In our paper, we use synthetic dataset from [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html) and real dataset from [Hyper-NeRF](https://hypernerf.github.io/). 
@@ -35,6 +39,8 @@ conda activate deformable_gaussian_env
 pip install imageio==2.27.0
 pip install opencv-python
 pip install imageio-ffmpeg
+pip install scipy
+pip install dearpygui
 ```
 
 
@@ -55,9 +61,13 @@ pip install imageio-ffmpeg
 
 ### HyperNeRF Dataset
 
-The results of HyperNeRF dataset can be viewed on the [project page](https://ingra14m.github.io/Deformable-3D-Gaussians.github.io/).
+The results of HyperNeRF dataset can be viewed on the [project page](https://ingra14m.github.io/Deformable-Gaussians/).
 
 
+
+### Real-Time Viewer
+
+https://github.com/ingra14m/Deformable-3D-Gaussians/assets/63096187/ec26d0b9-c126-4e23-b773-dcedcf386f36
 
 
 
