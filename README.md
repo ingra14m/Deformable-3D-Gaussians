@@ -11,6 +11,7 @@ This repository contains the official implementation associated with the paper "
 ## News
 
 - 23/10/25, update **real-time viewer** in project page. Many, many thanks to @[yihua7](https://github.com/yihua7) for implementing the real-time viewer adapted for Deformable-GS. Also, thanks to @[ashawkey](https://github.com/ashawkey) for releasing the original GUI. Full code will be **released on 11.17**.
+- 23/11/4, update the computation of LPIPS in metrics.py. Previously, the `lpipsPyTorch` was unable to execute on CUDA, prompting us to switch to the `lpips` library (~20x faster). (An interesting observation is that many prior methods performed LPIPS calculations **directly on the CPU**, which resulted in notably slow speed.)  
 
 ## Dataset
 
