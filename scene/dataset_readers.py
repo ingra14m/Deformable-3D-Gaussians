@@ -412,13 +412,17 @@ def readNerfiesCameras(path):
         val_img = dataset_json['val_ids']
         all_img = train_img + val_img
         ratio = 0.25
+    elif name.startswith('NeRF'):
+        train_img = dataset_json['train_ids']
+        val_img = dataset_json['val_ids']
+        all_img = train_img + val_img
+        ratio = 1.0
     elif name.startswith('interp'):
         all_id = dataset_json['ids']
         train_img = all_id[::4]
         val_img = all_id[2::4]
         all_img = train_img + val_img
         ratio = 0.5
-
     else:  # for hypernerf
         train_img = dataset_json['ids'][::4]
         all_img = train_img
