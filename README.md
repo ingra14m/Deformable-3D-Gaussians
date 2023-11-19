@@ -117,6 +117,14 @@ python render.py -m output/exp-name
 python metrics.py -m output/exp-name
 ```
 
+We provide several modes for rendering:
+
+- `render`: render all the test images
+- `time`: time interpolation tasks for D-NeRF dataset
+- `all`: time and view synthesis tasks for D-NeRF dataset
+- `view`: view synthesis tasks for real-world dataset
+- `original`: time and view synthesis tasks for real-world dataset
+
 
 
 ## Results
