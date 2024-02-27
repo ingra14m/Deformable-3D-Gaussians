@@ -10,9 +10,10 @@ This repository contains the official implementation associated with the paper "
 
 ## News
 
-- 23/11/16, full code and real-time viewer released.
-- 23/11/4, update the computation of LPIPS in metrics.py. Previously, the `lpipsPyTorch` was unable to execute on CUDA, prompting us to switch to the `lpips` library (~20x faster).
-- 23/10/25, update **real-time viewer** on project page. Many, many thanks to @[yihua7](https://github.com/yihua7) for implementing the real-time viewer adapted for Deformable-GS. Also, thanks to @[ashawkey](https://github.com/ashawkey) for releasing the original GUI.
+- **[2/27/2024]** Deformable-GS is accepted by CVPR 2024. Our another work, [SC-GS](https://yihua7.github.io/SC-GS-web/), is also accepted. See you in Seattle.
+- **[11/16/2023]** Full code and real-time viewer released.
+- **[11/4/2023]** update the computation of LPIPS in metrics.py. Previously, the `lpipsPyTorch` was unable to execute on CUDA, prompting us to switch to the `lpips` library (~20x faster).
+- **[10/25/2023]** update **real-time viewer** on project page. Many, many thanks to @[yihua7](https://github.com/yihua7) for implementing the real-time viewer adapted for Deformable-GS. Also, thanks to @[ashawkey](https://github.com/ashawkey) for releasing the original GUI.
 
 
 
@@ -38,7 +39,7 @@ We organize the datasets as follows:
 │   | HyperNeRF
 │     ├── interp
 │     ├── misc
-│     ├── virg
+│     ├── vrig
 ```
 
 > I have identified an **inconsistency in the D-NeRF's Lego dataset**. Specifically, the scenes corresponding to the training set differ from those in the test set. This discrepancy can be verified by observing the angle of the flipped Lego shovel. To meaningfully evaluate the performance of our method on this dataset, I recommend using the **validation set of the Lego dataset** as the test set.
@@ -63,7 +64,7 @@ conda create -n deformable_gaussian_env python=3.7
 conda activate deformable_gaussian_env
 
 # install pytorch
-pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
 
 # install dependencies
 pip install -r requirements.txt
