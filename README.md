@@ -114,7 +114,7 @@ python train_gui.py -s path/to/your/dataset -m output/exp-name --eval --is_blend
 ### Render & Evaluation
 
 ```shell
-python render.py -m output/exp-name
+python render.py -m output/exp-name --mode render
 python metrics.py -m output/exp-name
 ```
 
@@ -161,6 +161,12 @@ Since the **camera pose** in HyperNeRF is less precise compared to NeRF-DS, we u
 ### Real-Time Viewer
 
 https://github.com/ingra14m/Deformable-3D-Gaussians/assets/63096187/ec26d0b9-c126-4e23-b773-dcedcf386f36
+
+
+
+## Acknowledgments
+
+We sincerely thank the authors of [3D-GS](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/), [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html), [HyperNeRF](https://hypernerf.github.io/), and [NeRF-DS](https://jokeryan.github.io/projects/nerf-ds/), whose codes and datasets were used in our work. We thank [Zihao Wang](https://github.com/Alen-Wong) for the debugging in the early stage, preventing this work from sinking. We also thank the reviewers and AC for not being influenced by PR, and fairly evaluating our work. This work was mainly supported by ByteDance MMLab.
 
 
 
