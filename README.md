@@ -21,7 +21,7 @@ This repository contains the official implementation associated with the paper "
 
 In our paper, we use:
 
-- synthetic dataset from [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html)
+- synthetic dataset from [D-NeRF](https://www.albertpumarola.com/research/D-NeRF/index.html).
 - real-world dataset from [NeRF-DS](https://jokeryan.github.io/projects/nerf-ds/) and [Hyper-NeRF](https://hypernerf.github.io/) .
 
 We organize the datasets as follows:
@@ -42,7 +42,7 @@ We organize the datasets as follows:
 │     ├── vrig
 ```
 
-> I have identified an **inconsistency in the D-NeRF's Lego dataset**. Specifically, the scenes corresponding to the training set differ from those in the test set. This discrepancy can be verified by observing the angle of the flipped Lego shovel. To meaningfully evaluate the performance of our method on this dataset, I recommend using the **validation set of the Lego dataset** as the test set.
+> I have identified an **inconsistency in the D-NeRF's Lego dataset**. Specifically, the scenes corresponding to the training set differ from those in the test set. This discrepancy can be verified by observing the angle of the flipped Lego shovel. To meaningfully evaluate the performance of our method on this dataset, I recommend using the **validation set of the Lego dataset** as the test set. See more in [D-NeRF dataset used in Deformable-GS](https://github.com/ingra14m/Deformable-3D-Gaussians/releases/tag/v0.1-pre-released)
 
 
 
