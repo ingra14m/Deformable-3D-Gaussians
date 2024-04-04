@@ -124,7 +124,7 @@ We provide several modes for rendering:
 - `render`: render all the test images
 - `time`: time interpolation tasks for D-NeRF dataset
 - `all`: time and view synthesis tasks for D-NeRF dataset
-- `view`: view synthesis tasks for real-world dataset
+- `view`: view synthesis tasks for D-NeRF dataset
 - `original`: time and view synthesis tasks for real-world dataset
 
 
