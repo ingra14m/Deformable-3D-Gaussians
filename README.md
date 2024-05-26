@@ -85,7 +85,7 @@ python train.py -s path/to/your/d-nerf/dataset -m output/exp-name --eval --is_bl
 **NeRF-DS/HyperNeRF:**
 
 ```shell
-python train.py -s path/to/your/real-world/dataset -m output/exp-name --eval
+python train.py -s path/to/your/real-world/dataset -m output/exp-name --eval --iterations 20000
 ```
 
 **6DoF Transformation:**
@@ -97,7 +97,7 @@ We have also implemented the 6DoF transformation of 3D-GS, which may lead to an 
 python train.py -s path/to/your/d-nerf/dataset -m output/exp-name --eval --is_blender --is_6dof
 
 # NeRF-DS & HyperNeRF
-python train.py -s path/to/your/real-world/dataset -m output/exp-name --eval --is_6dof
+python train.py -s path/to/your/real-world/dataset -m output/exp-name --eval --is_6dof --iterations 20000
 ```
 
 You can also **train with the GUI:**
