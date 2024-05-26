@@ -142,7 +142,8 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations):
 
             # Densification
             if iteration < opt.densify_until_iter:
-                gaussians.add_densification_stats(viewspace_point_tensor, visibility_filter)
+                viewspace_point_tensor_densify = render_pkg_re["viewspace_points_densify"]
+                gaussians.add_densification_stats(viewspace_point_tensor_densify, visibility_filter)
 
                 if iteration > opt.densify_from_iter and iteration % opt.densification_interval == 0:
                     size_threshold = 20 if iteration > opt.opacity_reset_interval else None
