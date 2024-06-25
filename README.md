@@ -145,7 +145,18 @@ We provide several modes for rendering:
 
  <img src="assets/results/D-NeRF/lego.gif" alt="Image5" style="zoom:25%;" />  <img src="assets/results/D-NeRF/mutant.gif" alt="Image6" style="zoom:25%;" />  <img src="assets/results/D-NeRF/stand.gif" alt="Image7" style="zoom:25%;" />  <img src="assets/results/D-NeRF/trex.gif" alt="Image8" style="zoom:25%;" /> 
 
+**400x400 Resolution**
 
+|          | PSNR  | SSIM   | LPIPS (VGG) | FPS  | Mem   | Num. (k) |
+| -------- | ----- | ------ | ----------- | ---- | ----- | -------- |
+| bouncing | 41.46 | 0.9958 | 0.0046      | 112  | 13.16 | 55622    |
+| hell     | 42.11 | 0.9885 | 0.0153      | 375  | 3.72  | 15733    |
+| hook     | 37.77 | 0.9897 | 0.0103      | 128  | 11.74 | 49613    |
+| jump     | 39.10 | 0.9930 | 0.0090      | 217  | 6.81  | 28808    |
+| mutant   | 43.73 | 0.9969 | 0.0029      | 124  | 11.45 | 48423    |
+| standup  | 45.38 | 0.9967 | 0.0032      | 210  | 5.94  | 25102    |
+| trex     | 38.40 | 0.9959 | 0.0041      | 85   | 18.6  | 78624    |
+| Average  | 41.14 | 0.9938 | 0.0070      | 179  | 10.20 | 43132    |
 
 ### NeRF-DS Dataset
 
